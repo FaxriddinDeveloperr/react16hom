@@ -9,13 +9,13 @@ const Header = () => {
 
         <ul className="hidden md:flex items-center gap-8">
           <li>
-            <a href="#" className="text-gray-700 hover:text-black font-medium transition duration-200">Home</a>
+            <a href="#" className="text-gray-700  font-medium transition duration-200">Home</a>
           </li>
           <li>
-            <a href="" className="text-gray-700 hover:text-black font-medium transition duration-200">Products</a>
+            <a href="" className="text-gray-700 font-medium transition duration-200">Products</a>
           </li>
           <li>
-            <a href="" className="text-gray-700 hover:text-black font-medium transition duration-200">About</a>
+            <a href="" className="text-gray-700 h font-medium transition duration-200">About</a>
           </li>
         </ul>
 
@@ -24,7 +24,7 @@ const Header = () => {
         </button>
 
         <div className="md:hidden">
-          <button className="text-3xl text-black"></button>
+          <button className="text-3xl text-black">&#9776;</button>
         </div>
       </div>
     </header>
